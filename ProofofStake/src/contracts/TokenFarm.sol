@@ -5,7 +5,7 @@ import "./DaiToken.sol";
 
 contract TokenFarm{
     //All code goes here
-    string public name = "Project token farm";
+    string public name = "DApp Token Farm";
     DappToken public dappToken;
     DaiToken public daiToken;
 
@@ -13,4 +13,4 @@ contract TokenFarm{
         dappToken = _dappToken;
         daiToken = _daiToken;    
     }
-}
+} 
