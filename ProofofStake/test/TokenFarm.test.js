@@ -28,7 +28,7 @@ function tokens(n) {
 
  	describe('Mock DAI deployment', async () => {
  		it('has a name', async () => {
- 			const name = await daiToken.name()
+      const name = await daiToken.name()
  			assert.equal(name, "Mock DAI Token")
  		})
  	})
@@ -52,5 +52,4 @@ function tokens(n) {
  		})
 
  	})
-
 })
